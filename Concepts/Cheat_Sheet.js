@@ -76,6 +76,16 @@ so this file will be kind of cheat sheet to refer at any time.
 	- chekout to the branch in which you want to merge another branch (e.g chekout to develop)
 	- git merge <branch_name... feature/myFeature> 
 
+		
 18. to check remote repo
 	- git remote -v
 
+
+19. to delete branch locally
+	- git branch -d <branch_name>
+	
+		
+20. to delete branch remotely
+	- git push origin --delete <branch_name>
+		
+		
