@@ -83,7 +83,7 @@ so this file will be kind of cheat sheet to refer at any time.
 
 19. to delete branch locally
 	- git branch -d <branch_name>
-	
+	- git branch -D <branch_name>   // delete branch forcefully
 		
 20. to delete branch remotely
 	- git push origin --delete <branch_name>
