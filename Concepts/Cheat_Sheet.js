@@ -99,8 +99,18 @@ Example to create Merge conflict
 	in F2, pie value is still 3.146666 as this was in master when F2 was created.	
 	in F2, change pie = 3.56556 & merge then it will create a merge confllict.
 	
-	how to solve merge conflict?
-	git checkout --ours filename.c
-	git checkout --theirs filename.c
-	git add filename.c
-	git commit -m "using theirs"
+	how to solve merge conflict while Merging?
+		git checkout --ours filename.c
+		git checkout --theirs filename.c
+		git add filename.c
+		git commit -m "using theirs"
+	
+	
+	how to solve merge conflict while rebasing?
+		git checkout --ours filename.c
+		git checkout --theirs filename.c
+		git add filename.c
+		git commit
+		//if some problem arises then try one of these based on situation
+		git rebase --continue or git rebase --skip
+	
