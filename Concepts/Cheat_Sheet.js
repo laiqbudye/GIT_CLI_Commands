@@ -89,3 +89,18 @@ so this file will be kind of cheat sheet to refer at any time.
 	- git push origin --delete <branch_name>
 		
 		
+
+		
+Example to create Merge conflict
+	let say in master, const pie = 3.146666;
+	create F1 & F2 branch from master.
+
+	in F1, change pie = 3.9897  & merge that change in master.   // this will be fast forwrd merge
+	in F2, pie value is still 3.146666 as this was in master when F2 was created.	
+	in F2, change pie = 3.56556 & merge then it will create a merge confllict.
+	
+	how to solve merge conflict?
+	git checkout --ours filename.c
+	git checkout --theirs filename.c
+	git add filename.c
+	git commit -m "using theirs"
