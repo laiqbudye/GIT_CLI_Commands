@@ -1,6 +1,6 @@
 What is GIT?
   is a version conrol system which is open source
-  basically it is a software for tracking changes made to files.
+  basically version control is a practice of tracking & managing changes made to files.
   open-source
 
   main feature of git is 
